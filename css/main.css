@@ -107,8 +107,9 @@ p {
 .our-product {
     background-color: #ddac4f;
     padding: 1em;
-    width: 100%;
+    width: 30%;
     box-sizing: border-box;
+    margin: auto;
     display: block;
     text-align: center;
     text-decoration: none;
