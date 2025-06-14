@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Emas Andalusia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="brand">
+            <div class="brand1">TOKO MAS</div>
+            <div class="brand2">ANDALUSIA</div>
+        </a>
+        <nav>
+            <a href="#" class="menu-open">
+                <img src="menu.svg" alt="Open Menu">
+            </a>
+            <ul class="main-nav">
+                <li>
+                    <a href="#" class="menu-close">
+                        <img src="close.svg" alt="Close Menu">
+                    </a>
+                    <div class="background-circle"></div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Our Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>yel yel</h1>
+        <p class="subhead">
+            Kedai Emas Andalusia: Pasar Emas Hidup, Pilihan Tak Terbatas! Temukan ratusan model cincin & kalung emas 24K autentik - dari yang simpel hingga mewah - dengan harga jernih berdasarkan timbangan. Rasakan sensasi belanja tradisional: lihat langsung, pilih, timbang, dan tawar! Kunjungi kami atau jelajahi koleksi online
+        </p>
+        <a href="#" class="our-product">Jajan Sekarang!</a>
+    </main>
+    
+    <script>
+
+        const menu = document.querySelector(".main-nav");
+        const menuBtn = document.querySelector(".menu-open");
+        const closeBtn = document.querySelector(".menu-close");
+
+        menuBtn.addEventListener("click", () => {
+            menu.classList.add("open")
+        })
+        
+        closeBtn.addEventListener("click", () => {
+            menu.classList.remove("open")
+        })
+
+    </script>
+</body>
+</html>
